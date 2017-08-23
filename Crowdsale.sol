@@ -77,7 +77,7 @@ contract Crowdsale is Ownable {
   Token token;
 
   uint256 public constant RATE = 1000; // Number of tokens per Ether
-  uint256 public constant CAP = 115000; // Cap in Ether
+  uint256 public constant CAP = 100000; // Cap in Ether
   uint256 public constant START = 1505138400; // Sep 11, 2017 @ 14:00 GMT
   uint256 public DAYS = 30; // 30 Days
 
